@@ -1,0 +1,93 @@
+gpc_with_impedence_and_phase_shift_measures.png
+Best GPC parameters found:  {'kernel': 1**2 * RBF(length_scale=10)}
+Best GPC cross-validation accuracy:  0.7755555555555556
+Accuracy: 0.7916666666666666
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.82      0.90      0.86        68
+           1       0.68      0.54      0.60        28
+
+    accuracy                           0.79        96
+   macro avg       0.75      0.72      0.73        96
+weighted avg       0.78      0.79      0.78        96
+
+mlp_with_impedence_and_phase_shift_measures.png
+Best MLP parameters found:  {'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (100, 100), 'learning_rate': 'constant', 'solver': 'adam'}
+Best MLP cross-validation accuracy:  0.7575757575757576
+Accuracy: 0.7395833333333334
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.82      0.81      0.82        69
+           1       0.54      0.56      0.55        27
+
+    accuracy                           0.74        96
+   macro avg       0.68      0.68      0.68        96
+weighted avg       0.74      0.74      0.74        96
+
+
+
+
+gpc_with_instrumental_data.png
+Best GPC parameters found:  {'kernel': 1**2 * RBF(length_scale=1)}
+Best GPC cross-validation accuracy:  0.7397979797979797
+Accuracy: 0.7291666666666666
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.79      0.84      0.81        68
+           1       0.54      0.46      0.50        28
+
+    accuracy                           0.73        96
+   macro avg       0.67      0.65      0.66        96
+weighted avg       0.72      0.73      0.72        96
+
+mlp_with_instrumental_data.png
+Best MLP parameters found:  {'activation': 'relu', 'alpha': 0.05, 'hidden_layer_sizes': (100,), 'learning_rate': 'adaptive', 'solver': 'adam'}
+Best MLP cross-validation accuracy:  0.7666666666666666
+Accuracy: 0.7604166666666666
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.78      0.93      0.85        69
+           1       0.64      0.33      0.44        27
+
+    accuracy                           0.76        96
+   macro avg       0.71      0.63      0.64        96
+weighted avg       0.74      0.76      0.73        96
+
+
+
+
+gpc_with_all_features.png
+Best GPC parameters found:  {'kernel': 1**2 * RBF(length_scale=10)}
+Best GPC cross-validation accuracy:  0.7844444444444445
+Accuracy: 0.7916666666666666
+Classification report:
+               precision    recall  f1-score   support
+
+           0       0.83      0.88      0.86        68
+           1       0.67      0.57      0.62        28
+
+    accuracy                           0.79        96
+   macro avg       0.75      0.73      0.74        96
+weighted avg       0.78      0.79      0.79        96
+
+mlp_with_all_features.png
+Best MLP parameters found:  {'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (100, 100), 'learning_rate': 'constant', 'solver': 'adam'}
+Best MLP cross-validation accuracy:  0.7709090909090909
+Accuracy: 0.8333333333333334
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.84      0.96      0.89        69
+           1       0.82      0.52      0.64        27
+
+    accuracy                           0.83        96
+   macro avg       0.83      0.74      0.76        96
+weighted avg       0.83      0.83      0.82        96
+
+
+
+
